@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Detecção de Colisão</Name>
+    <Assembly>RevitPluginColisao.dll</Assembly>
+    <AddInId>a1b2c3d4-e5f6-7890-abcd-ef1234567890</AddInId>
+    <FullClassName>RevitPluginColisao.Comandos.ComandoDetectarColisao</FullClassName>
+    <Text>Detectar Colisões</Text>
+    <Description>Plugin para identificar colisões entre elementos hidráulicos/estruturais no Revit. Detecta elementos em colisão, proximidade e gera relatórios.</Description>
+    <VendorId>HORIZONTES</VendorId>
+    <VendorDescription>HORIZONTES Arquitetura + Urbanismo</VendorDescription>
+  </AddIn>
+</RevitAddIns>
